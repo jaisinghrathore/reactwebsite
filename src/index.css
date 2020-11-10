@@ -1,0 +1,40 @@
+.navi{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.jai{
+    border-bottom: 1px solid white;
+}
+*{
+    font-family: 'Goldman'
+}
+
+.buttton{
+    position: relative!important;
+    top: 25%!important;
+    left: 45%!important;
+}
+
+.buttton:hover{
+    outline: none!important;
+    text-decoration: none!important;
+ }
+ .img{
+     width: 600px;
+     animation: anim 2s linear 0s infinite alternate none;
+ }
+
+
+ @keyframes anim{
+    0%{transform: translateY(-30px);}
+    100%{transform: translateY(10px);}
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
